@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDBEBE2218B5628E0053047B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBEBE2118B5628E0053047B /* Foundation.framework */; };
+		BDBEBE2418B5628E0053047B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBEBE2318B5628E0053047B /* CoreGraphics.framework */; };
+		BDBEBE2618B5628E0053047B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBEBE2518B5628E0053047B /* UIKit.framework */; };
+		BDBEBE2C18B5628E0053047B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDBEBE2A18B5628E0053047B /* InfoPlist.strings */; };
+		BDBEBE2E18B5628E0053047B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBEBE2D18B5628E0053047B /* main.m */; };
+		BDBEBE3218B5628E0053047B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBEBE3118B5628E0053047B /* AppDelegate.m */; };
+		BDBEBE3518B5628E0053047B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBEBE3318B5628E0053047B /* Main.storyboard */; };
+		BDBEBE3818B5628E0053047B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBEBE3718B5628E0053047B /* ViewController.m */; };
+		BDBEBE3A18B5628E0053047B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBEBE3918B5628E0053047B /* Images.xcassets */; };
+		BDBEBE4118B5628E0053047B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBEBE4018B5628E0053047B /* XCTest.framework */; };
+		BDBEBE4218B5628E0053047B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBEBE2118B5628E0053047B /* Foundation.framework */; };
+		BDBEBE4318B5628E0053047B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBEBE2518B5628E0053047B /* UIKit.framework */; };
+		BDBEBE4B18B5628E0053047B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDBEBE4918B5628E0053047B /* InfoPlist.strings */; };
+		BDBEBE4D18B5628E0053047B /* TossGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBEBE4C18B5628E0053047B /* TossGestureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBEBE4418B5628E0053047B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBEBE1618B5628E0053047B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBEBE1D18B5628E0053047B;
+			remoteInfo = TossGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDBEBE1E18B5628E0053047B /* TossGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TossGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBEBE2118B5628E0053047B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDBEBE2318B5628E0053047B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDBEBE2518B5628E0053047B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDBEBE2918B5628E0053047B /* TossGesture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TossGesture-Info.plist"; sourceTree = "<group>"; };
+		BDBEBE2B18B5628E0053047B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDBEBE2D18B5628E0053047B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDBEBE2F18B5628E0053047B /* TossGesture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TossGesture-Prefix.pch"; sourceTree = "<group>"; };
+		BDBEBE3018B5628E0053047B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDBEBE3118B5628E0053047B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDBEBE3418B5628E0053047B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDBEBE3618B5628E0053047B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDBEBE3718B5628E0053047B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDBEBE3918B5628E0053047B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDBEBE3F18B5628E0053047B /* TossGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TossGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBEBE4018B5628E0053047B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BDBEBE4818B5628E0053047B /* TossGestureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TossGestureTests-Info.plist"; sourceTree = "<group>"; };
+		BDBEBE4A18B5628E0053047B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDBEBE4C18B5628E0053047B /* TossGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TossGestureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBEBE1B18B5628E0053047B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBEBE2418B5628E0053047B /* CoreGraphics.framework in Frameworks */,
+				BDBEBE2618B5628E0053047B /* UIKit.framework in Frameworks */,
+				BDBEBE2218B5628E0053047B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBEBE3C18B5628E0053047B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBEBE4118B5628E0053047B /* XCTest.framework in Frameworks */,
+				BDBEBE4318B5628E0053047B /* UIKit.framework in Frameworks */,
+				BDBEBE4218B5628E0053047B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBEBE1518B5628E0053047B = {
+			isa = PBXGroup;
+			children = (
+				BDBEBE2718B5628E0053047B /* TossGesture */,
+				BDBEBE4618B5628E0053047B /* TossGestureTests */,
+				BDBEBE2018B5628E0053047B /* Frameworks */,
+				BDBEBE1F18B5628E0053047B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBEBE1F18B5628E0053047B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBEBE1E18B5628E0053047B /* TossGesture.app */,
+				BDBEBE3F18B5628E0053047B /* TossGestureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBEBE2018B5628E0053047B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDBEBE2118B5628E0053047B /* Foundation.framework */,
+				BDBEBE2318B5628E0053047B /* CoreGraphics.framework */,
+				BDBEBE2518B5628E0053047B /* UIKit.framework */,
+				BDBEBE4018B5628E0053047B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDBEBE2718B5628E0053047B /* TossGesture */ = {
+			isa = PBXGroup;
+			children = (
+				BDBEBE3018B5628E0053047B /* AppDelegate.h */,
+				BDBEBE3118B5628E0053047B /* AppDelegate.m */,
+				BDBEBE3318B5628E0053047B /* Main.storyboard */,
+				BDBEBE3618B5628E0053047B /* ViewController.h */,
+				BDBEBE3718B5628E0053047B /* ViewController.m */,
+				BDBEBE3918B5628E0053047B /* Images.xcassets */,
+				BDBEBE2818B5628E0053047B /* Supporting Files */,
+			);
+			path = TossGesture;
+			sourceTree = "<group>";
+		};
+		BDBEBE2818B5628E0053047B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBEBE2918B5628E0053047B /* TossGesture-Info.plist */,
+				BDBEBE2A18B5628E0053047B /* InfoPlist.strings */,
+				BDBEBE2D18B5628E0053047B /* main.m */,
+				BDBEBE2F18B5628E0053047B /* TossGesture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDBEBE4618B5628E0053047B /* TossGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBEBE4C18B5628E0053047B /* TossGestureTests.m */,
+				BDBEBE4718B5628E0053047B /* Supporting Files */,
+			);
+			path = TossGestureTests;
+			sourceTree = "<group>";
+		};
+		BDBEBE4718B5628E0053047B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBEBE4818B5628E0053047B /* TossGestureTests-Info.plist */,
+				BDBEBE4918B5628E0053047B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBEBE1D18B5628E0053047B /* TossGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBEBE5018B5628E0053047B /* Build configuration list for PBXNativeTarget "TossGesture" */;
+			buildPhases = (
+				BDBEBE1A18B5628E0053047B /* Sources */,
+				BDBEBE1B18B5628E0053047B /* Frameworks */,
+				BDBEBE1C18B5628E0053047B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TossGesture;
+			productName = TossGesture;
+			productReference = BDBEBE1E18B5628E0053047B /* TossGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBEBE3E18B5628E0053047B /* TossGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBEBE5318B5628E0053047B /* Build configuration list for PBXNativeTarget "TossGestureTests" */;
+			buildPhases = (
+				BDBEBE3B18B5628E0053047B /* Sources */,
+				BDBEBE3C18B5628E0053047B /* Frameworks */,
+				BDBEBE3D18B5628E0053047B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBEBE4518B5628E0053047B /* PBXTargetDependency */,
+			);
+			name = TossGestureTests;
+			productName = TossGestureTests;
+			productReference = BDBEBE3F18B5628E0053047B /* TossGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBEBE1618B5628E0053047B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Paul Solt";
+				TargetAttributes = {
+					BDBEBE3E18B5628E0053047B = {
+						TestTargetID = BDBEBE1D18B5628E0053047B;
+					};
+				};
+			};
+			buildConfigurationList = BDBEBE1918B5628E0053047B /* Build configuration list for PBXProject "TossGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBEBE1518B5628E0053047B;
+			productRefGroup = BDBEBE1F18B5628E0053047B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBEBE1D18B5628E0053047B /* TossGesture */,
+				BDBEBE3E18B5628E0053047B /* TossGestureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBEBE1C18B5628E0053047B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBEBE3A18B5628E0053047B /* Images.xcassets in Resources */,
+				BDBEBE2C18B5628E0053047B /* InfoPlist.strings in Resources */,
+				BDBEBE3518B5628E0053047B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBEBE3D18B5628E0053047B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBEBE4B18B5628E0053047B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBEBE1A18B5628E0053047B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBEBE3818B5628E0053047B /* ViewController.m in Sources */,
+				BDBEBE3218B5628E0053047B /* AppDelegate.m in Sources */,
+				BDBEBE2E18B5628E0053047B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBEBE3B18B5628E0053047B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBEBE4D18B5628E0053047B /* TossGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBEBE4518B5628E0053047B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBEBE1D18B5628E0053047B /* TossGesture */;
+			targetProxy = BDBEBE4418B5628E0053047B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDBEBE2A18B5628E0053047B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBEBE2B18B5628E0053047B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDBEBE3318B5628E0053047B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBEBE3418B5628E0053047B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBEBE4918B5628E0053047B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBEBE4A18B5628E0053047B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBEBE4E18B5628E0053047B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDBEBE4F18B5628E0053047B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBEBE5118B5628E0053047B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TossGesture/TossGesture-Prefix.pch";
+				INFOPLIST_FILE = "TossGesture/TossGesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDBEBE5218B5628E0053047B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TossGesture/TossGesture-Prefix.pch";
+				INFOPLIST_FILE = "TossGesture/TossGesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDBEBE5418B5628E0053047B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TossGesture.app/TossGesture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TossGesture/TossGesture-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TossGestureTests/TossGestureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BDBEBE5518B5628E0053047B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TossGesture.app/TossGesture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TossGesture/TossGesture-Prefix.pch";
+				INFOPLIST_FILE = "TossGestureTests/TossGestureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBEBE1918B5628E0053047B /* Build configuration list for PBXProject "TossGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBEBE4E18B5628E0053047B /* Debug */,
+				BDBEBE4F18B5628E0053047B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBEBE5018B5628E0053047B /* Build configuration list for PBXNativeTarget "TossGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBEBE5118B5628E0053047B /* Debug */,
+				BDBEBE5218B5628E0053047B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDBEBE5318B5628E0053047B /* Build configuration list for PBXNativeTarget "TossGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBEBE5418B5628E0053047B /* Debug */,
+				BDBEBE5518B5628E0053047B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBEBE1618B5628E0053047B /* Project object */;
+}
